@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<emailBean>
+	<!-- Email Server SMTP -->
+	<server>server.com</server>
+	
+	<!-- Email Server SMTP Port -->
+	<port>25</port>
+	
+	<!-- Cuenta que envía el email  -->
+	<fromMail>email@server.com</fromMail>
+	
+	<!-- Username (si aplica autentificación) -->
+	<username>username</username>
+	
+	<!-- Password de la cuenta que envía el email -->
+	<password>password¿?</password>
+	
+	<!-- Si la conexión requerie AUTH -->
+	<auth>true</auth>
+	
+	<!-- Debug, por defecto false -->
+	<debug>false</debug>
+	
+	<!-- Fallback, por defecto false -->
+	<fallback>false</fallback>
+	
+	<!-- Starttls -->
+	<starttls>true</starttls>
+</emailBean>
